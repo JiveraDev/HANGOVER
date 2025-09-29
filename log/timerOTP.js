@@ -14,7 +14,8 @@ function startTimer() {
         } else {
             clearInterval(countdown);
             countdown = null;
-            document.getElementById('timerOTP').textContent = 'OTP Expired';
+            document.getElementById('sometimerlabel').textContent = 'OTP Expired';
+            document.getElementById('timerOTP').textContent = '';
         }
     }, 1000);
 }
